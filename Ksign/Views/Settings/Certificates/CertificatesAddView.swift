@@ -48,11 +48,6 @@ struct CertificatesAddView: View {
 					_importButton(.localized("Import Provisioning File"), file: _provisionURL, hasData: _provisionData) {
 						_isImportingMobileProvisionPresenting = true
 					}
-					
-					Button(.localized("Import Ksign File")) {
-						_isImportingKsignPresenting = true
-					}
-					.foregroundColor(.accentColor)
 				}
 				NBSection(.localized("Password")) {
 					SecureField(.localized("Enter Password"), text: $_p12Password)
@@ -96,15 +91,6 @@ struct CertificatesAddView: View {
 					}
 				)
 			}
-			.sheet(isPresented: $_isImportingKsignPresenting) {
-				FileImporterRepresentableView(
-                    allowedContentTypes: [UTType.ksign],
-					onDocumentsPicked: { urls in
-						guard let selectedFileURL = urls.first else { return }
-						importKsignFile(selectedFileURL)
-					}
-				)
-			}
 			.alert(isPresented: $_isPasswordAlertPresenting) {
 				Alert(
 					title: Text(.localized("Bad Password")),
@@ -121,21 +107,6 @@ struct CertificatesAddView: View {
 			}
 		}
 	}
-	
-	private func importKsignFile(_ url: URL) {
-		CertificateService.shared.importKsignCertificate(from: url) { result in
-			DispatchQueue.main.async {
-				switch result {
-				case .success(_):
-					dismiss()
-				case .failure(let importError):
-					_errorMessage = importError.localizedDescription
-					_isErrorPresenting = true
-				}
-			}
-		}
-	}
-
 }
 
 // MARK: - Extension: View
@@ -159,49 +130,23 @@ extension CertificatesAddView {
 // MARK: - Extension: View (import)
 extension CertificatesAddView {
 	private func _saveCertificate() {
-		if _isFromKsign {
-			guard let p12Data = _p12Data,
-				  let provisionData = _provisionData else {
-				_isPasswordAlertPresenting = true
-				return
-			}
-			
-			guard FR.checkPasswordForCertificateData(
-				p12Data: p12Data,
-				provisionData: provisionData,
-				password: _p12Password
-			) else {
-				_isPasswordAlertPresenting = true
-				return
-			}
-			
-			FR.handleCertificateData(
-				p12Data: p12Data,
-				provisionData: provisionData,
-				p12Password: _p12Password,
-				certificateName: _certificateName
-			) { _ in
-				dismiss()
-			}
-		} else {
-			guard
-				let p12URL = _p12URL,
-				let provisionURL = _provisionURL,
-				FR.checkPasswordForCertificate(for: p12URL, with: _p12Password, using: provisionURL)
-			else {
-				_isPasswordAlertPresenting = true
-				return
-			}
-			
-			FR.handleCertificateFiles(
-				p12URL: p12URL,
-				provisionURL: provisionURL,
-				p12Password: _p12Password,
-				certificateName: _certificateName
-			) { _ in
-				dismiss()
-			}
-		}
+        guard
+            let p12URL = _p12URL,
+            let provisionURL = _provisionURL,
+            FR.checkPasswordForCertificate(for: p12URL, with: _p12Password, using: provisionURL)
+        else {
+            _isPasswordAlertPresenting = true
+            return
+        }
+        
+        FR.handleCertificateFiles(
+            p12URL: p12URL,
+            provisionURL: provisionURL,
+            p12Password: _p12Password,
+            certificateName: _certificateName
+        ) { _ in
+            dismiss()
+        }
 	}
 }
 

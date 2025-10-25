@@ -217,21 +217,6 @@ class FilesViewModel: ObservableObject {
             }
         }
     }
-
-    func importKsignFile(_ file: FileItem) {
-        guard file.isKsignFile else { return }
-        
-        CertificateService.shared.importKsignCertificate(from: file.url) { result in
-            DispatchQueue.main.async {
-                switch result {
-                case .success(let message):
-                    UIAlertController.showAlertWithOk(title: .localized("Success"), message: .localized(message))
-                case .failure(let error):
-                    UIAlertController.showAlertWithOk(title: .localized("Error"), message: .localized(error.localizedDescription))
-                }
-            }
-        }
-    }
     
     
     private func sanitizeFileName(_ name: String) -> String {

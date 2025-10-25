@@ -99,38 +99,6 @@ enum FR {
 		}
 	}
 	
-	// New method for handling certificate data in memory
-	static func handleCertificateData(
-		p12Data: Data,
-		provisionData: Data,
-		p12Password: String,
-		certificateName: String,
-		completion: @escaping (Error?) -> Void
-	) {
-		Task.detached {
-			let handler = CertificateMemoryHandler(
-				p12Data: p12Data,
-				provisionData: provisionData,
-				password: p12Password,
-				nickname: certificateName.isEmpty ? nil : certificateName
-			)
-			
-			do {
-				guard handler.validate() else {
-					throw CertificateHandlerError.invalidCertificate
-				}
-				
-				try await handler.addToDatabase()
-				await MainActor.run {
-					completion(nil)
-				}
-			} catch {
-				await MainActor.run {
-					completion(error)
-				}
-			}
-		}
-	}
 	
 	static func checkPasswordForCertificate(
 		for key: URL,

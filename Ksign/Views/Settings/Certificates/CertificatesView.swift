@@ -138,37 +138,6 @@ extension CertificatesView {
 		} label: {
 			Label(.localized("Get Info"), systemImage: "info.circle")
 		}
-		
-		Button {
-			exportCertificate(cert)
-		} label: {
-			Label(.localized("Share"), systemImage: "square.and.arrow.up")
-		}
-	}
-	
-	private func exportCertificate(_ cert: CertificatePair) {
-		guard let uuid = cert.uuid else { return }
-		
-		guard let certData = Storage.shared.getCertificateDataForExport(from: cert),
-			  let jsonData = try? JSONSerialization.data(withJSONObject: certData) else {
-			return
-		}
-		
-		guard let finalData = CertificateEncryption.encryptKsignData(jsonData) else {
-			print("Error encrypting certificate data")
-			return
-		}
-		
-        let sanitizedName = (cert.nickname ?? "Certificate")
-			.replacingOccurrences(of: "/", with: "-")
-			.replacingOccurrences(of: ":", with: "-")
-			.replacingOccurrences(of: "\\", with: "-")
-		
-		let tempDir = FileManager.default.temporaryDirectory
-		let fileName = "\(sanitizedName).ksign"
-		let fileURL = tempDir.appendingPathComponent(fileName)
-
-		UIActivityViewController.show(activityItems: [fileURL])
 	}
 	
 

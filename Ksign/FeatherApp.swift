@@ -69,29 +69,9 @@ struct FeatherApp: App {
 				return
 			}
 			
-			if url.pathExtension == "ksign" {
-				if FileManager.default.isFileFromFileProvider(at: url) {
-					guard url.startAccessingSecurityScopedResource() else { return }
-					_handleKsignFile(url)
-				} else {
-					_handleKsignFile(url)
-				}
-				
-				return
-			}
-		}
-	}
-	
-	private func _handleKsignFile(_ url: URL) {
-		CertificateService.shared.importKsignCertificate(from: url) { result in
-			DispatchQueue.main.async {
-				switch result {
-				case .success(let message):
-                    UIAlertController.showAlertWithOk(title: "Import Successful", message: message)
-				case .failure(let error):
-                    UIAlertController.showAlertWithOk(title: "Import Failed", message: error.localizedDescription)
-				}
-			}
+            if url.pathExtension == "ksign" {
+                UIAlertController.showAlertWithOk(title: .localized("Error"), message: .localized("Ksign certificate file (.ksign) is now unsupported from v1.5.1, please refer to use .p12 and .mobileprovision instead."))
+            }
 		}
 	}
 	
@@ -109,8 +89,6 @@ class AppDelegate: NSObject, UIApplicationDelegate {
             _initializeBuiltInSources()
             UserDefaults.standard.set(true, forKey: "hasInitializedBuiltInSources")
         }
-        
-        CertificateEncryption.migrateExistingCertificates()
         
         _clean()
         

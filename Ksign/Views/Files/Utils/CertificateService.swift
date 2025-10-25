@@ -22,7 +22,6 @@ final class CertificateService {
     
     enum ImportError: LocalizedError {
         case invalidFile
-        case corruptedKsignFile
         case invalidFileFormat
         case missingProvisionData
         case missingCertificateData
@@ -35,8 +34,6 @@ final class CertificateService {
             switch self {
             case .invalidFile:
                 return "Invalid or inaccessible file"
-            case .corruptedKsignFile:
-                return "Invalid or corrupted .ksign file"
             case .invalidFileFormat:
                 return "Invalid file format"
             case .missingProvisionData:
@@ -106,86 +103,6 @@ final class CertificateService {
                 completion(.success("Certificate imported successfully"))
             }
         }
-    }
-    
-    func importKsignCertificate(from file: FileItem, completion: @escaping (ImportResult) -> Void) {
-        guard file.isKsignFile else {
-            completion(.failure(.invalidFile))
-            return
-        }
-        
-        importKsignCertificate(from: file.url, completion: completion)
-    }
-    
-    func importKsignCertificate(from url: URL, completion: @escaping (ImportResult) -> Void) {
-        let didStartAccessing = url.startAccessingSecurityScopedResource()
-
-        defer {
-            if didStartAccessing {
-                url.stopAccessingSecurityScopedResource()
-            }
-        }
-        
-        do {
-            let fileData = try Data(contentsOf: url)
-            
-            guard let decryptedData = decryptKsignData(fileData) else {
-                completion(.failure(.corruptedKsignFile))
-                return
-            }
-            
-            guard let json = try JSONSerialization.jsonObject(with: decryptedData, options: []) as? [String: Any] else {
-                completion(.failure(.invalidFileFormat))
-                return
-            }
-            
-            let name = json["name"] as? String ?? "Certificate"
-            
-            guard let provisionBase64 = json["provisionData"] as? String,
-                  let provisionData = Data(base64Encoded: provisionBase64) else {
-                completion(.failure(.missingProvisionData))
-                return
-            }
-            
-            guard let p12Base64 = json["p12Data"] as? String,
-                  let p12Data = Data(base64Encoded: p12Base64) else {
-                completion(.failure(.missingCertificateData))
-                return
-            }
-            
-            let password = json["password"] as? String ?? ""
-            
-            guard FR.checkPasswordForCertificateData(
-                p12Data: p12Data,
-                provisionData: provisionData,
-                password: password
-            ) else {
-                completion(.failure(.invalidPassword))
-                return
-            }
-            
-            FR.handleCertificateData(
-                p12Data: p12Data,
-                provisionData: provisionData,
-                p12Password: password,
-                certificateName: name
-            ) { error in
-                if let error = error {
-                    completion(.failure(.importFailed(error.localizedDescription)))
-                } else {
-                    completion(.success("Certificate imported successfully from .ksign file"))
-                }
-            }
-            
-        } catch {
-            completion(.failure(.importFailed(error.localizedDescription)))
-        }
-    }
-    
-    // MARK: - Private Decryption Methods
-    
-    private func decryptKsignData(_ data: Data) -> Data? {
-        return CertificateEncryption.decryptKsignData(data)
     }
 }
 

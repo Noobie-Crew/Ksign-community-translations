@@ -32,13 +32,6 @@ struct CertificatesInfoView: View {
 					_entitlementsSection(data: data)
 					_miscSection(data: data)
 				}
-				
-				Section {
-					Button(.localized("Export Certificate"), systemImage: "square.and.arrow.up") {
-						exportCertificate(cert)
-					}
-				}
-				
 			}
 			.toolbar {
 				NBToolbarButton(role: .close)
@@ -120,50 +113,4 @@ extension CertificatesInfoView {
 			}
 		}
 	}
-}
-
-// MARK: - Extension: Certificate Export
-extension CertificatesInfoView {
-	private func exportCertificate(_ cert: CertificatePair) {
-		guard let uuid = cert.uuid else { return }
-		
-		guard let certData = Storage.shared.getCertificateDataForExport(from: cert),
-			  let jsonData = try? JSONSerialization.data(withJSONObject: certData) else {
-			return
-		}
-		
-		guard let finalData = CertificateEncryption.encryptKsignData(jsonData) else {
-			print("Error encrypting certificate data")
-			return
-		}
-		
-		let sanitizedName = (cert.nickname ?? "Certificate")
-			.replacingOccurrences(of: "/", with: "-")
-			.replacingOccurrences(of: ":", with: "-")
-			.replacingOccurrences(of: "\\", with: "-")
-		
-		let tempDir = FileManager.default.temporaryDirectory
-		let fileName = "\(sanitizedName).ksign"
-		let fileURL = tempDir.appendingPathComponent(fileName)
-		
-		do {
-			try finalData.write(to: fileURL)
-			
-			let activityVC = UIActivityViewController(activityItems: [fileURL], applicationActivities: nil)
-			
-			if let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
-			   let rootViewController = windowScene.windows.first?.rootViewController {
-				
-				if let presentedVC = rootViewController.presentedViewController {
-					presentedVC.present(activityVC, animated: true)
-				} else {
-					rootViewController.present(activityVC, animated: true)
-				}
-			}
-		} catch {
-			print("Error exporting certificate: \(error)")
-		}
-	}
-	
-
 }
