@@ -9,6 +9,8 @@ import SwiftUI
 import NimbleViews
 
 struct AppearanceView: View {
+    @AppStorage("Feather.userInterfaceStyle") private var _userIntefacerStyle: Int = UIUserInterfaceStyle.unspecified.rawValue
+    
 	@AppStorage("Feather.libraryCellAppearance") private var _libraryCellAppearance: Int = 0
 	
 	private let _libraryCellAppearanceMethods: [String] = [
@@ -52,12 +54,19 @@ struct AppearanceView: View {
     var body: some View {
         NBList(.localized("Appearance")) {
             
-            if #available(iOS 19.0, *) {
-                NBSection(.localized("Experiments")) {
-                    Toggle(.localized("Enable Liquid Glass"), isOn: $_ignoreSolariumLinkedOnCheck)
-                } footer: {
-                    Text(.localized("This enables liquid glass for this app, this requires a restart of the app to take effect."))
+            Section {
+                Picker(.localized("Appearance"), selection: $_userIntefacerStyle) {
+                    ForEach(UIUserInterfaceStyle.allCases.sorted(by: { $0.rawValue < $1.rawValue }), id: \.rawValue) { style in
+                        Text(style.label).tag(style.rawValue)
+                    }
                 }
+                .pickerStyle(.segmented)
+            }
+
+            NBSection(.localized("Experiments")) {
+                Toggle(.localized("Enable Liquid Glass"), isOn: $_ignoreSolariumLinkedOnCheck)
+            } footer: {
+                Text(.localized("This enables liquid glass for this app, this requires a restart of the app to take effect."))
             }
 			
 			NBSection(.localized("Sources")) {
@@ -88,6 +97,11 @@ struct AppearanceView: View {
 				.labelsHidden()
 			}
 		}
+        .onChange(of: _userIntefacerStyle) { value in
+            if let style = UIUserInterfaceStyle(rawValue: value) {
+                UIApplication.topViewController()?.view.window?.overrideUserInterfaceStyle = style
+            }
+        }
 		.onChange(of: _selectedAccentColor) { _ in
 			accentColorManager.updateGlobalTintColor()
 		}
