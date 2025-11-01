@@ -2,10 +2,29 @@
   "sourceLanguage" : "en",
   "strings" : {
     "" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : ""
+          }
+        }
+      }
     },
     "%lld" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -54,7 +73,7 @@
               "one" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "%LLD App"
+                  "value" : "%lld App"
                 }
               },
               "other" : {
@@ -215,7 +234,7 @@
               "one" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "%LLD DAY"
+                  "value" : "%lld DAY"
                 }
               },
               "other" : {
@@ -339,10 +358,28 @@
     },
     "%lld item%@" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld item%2$@"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "new",
             "value" : "%1$lld item%2$@"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld elemento %2$@"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$11d eşya %2$@"
           }
         },
         "vi" : {
@@ -486,6 +523,14 @@
       }
     },
     "•" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "."
+          }
+        }
+      },
       "shouldTranslate" : false
     },
     "💜 This couldn't of been done without my sponsors!" : {
@@ -553,7 +598,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Um"
+            "value" : "Über KSign"
           }
         },
         "en" : {
@@ -596,6 +641,18 @@
     },
     "About the original Feather" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Über den Originalen Feather Signer"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Orijinal Feather hakkinda"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -659,6 +716,18 @@
     },
     "Add Download" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Download Hinzufügen"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Indirme Ekle"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -721,6 +790,24 @@
     },
     "Added Tweaks" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tweaks hinzugefügt"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "modificaciones añadidas"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ince Ayar Ekle"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -836,7 +923,7 @@
       }
     },
     "Alert" : {
-      "extractionState" : "stale",
+      "extractionState" : "manual",
       "localizations" : {
         "vi" : {
           "stringUnit" : {
@@ -858,7 +945,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Alle"
+            "value" : "Alles"
           }
         },
         "en" : {
@@ -911,7 +998,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Alle KSign -Dateien sind im Dokumentenverzeichnis enthalten. Hier finden Sie einige schnelle Links zu diesen."
+            "value" : "Alle Dateien von KSign sind in dem Dokumenten Ordner. Hier sind ein paar Schnellverweisungen zu diesem."
           }
         },
         "en" : {
@@ -1018,7 +1105,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Alternative Ikonen"
+            "value" : "Alternative Icons"
           }
         },
         "en" : {
@@ -1072,7 +1159,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Eine tolle Anwendung"
+            "value" : "Eine tolle App"
           }
         },
         "en" : {
@@ -1116,6 +1203,18 @@
     "An unknown error occurred" : {
       "extractionState" : "stale",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ein unbekannter Fehler ist Aufgetreten"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bilinmeyen bir hata meydana geldi"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1131,18 +1230,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Funkce aplikace"
-          }
-        },
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "App -Funktionen"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "App Features"
           }
         },
         "es" : {
@@ -1179,6 +1266,20 @@
     },
     "App Store" : {
       "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App Store"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App Store"
+          }
+        }
+      },
       "shouldTranslate" : false
     },
     "Appearance" : {
@@ -1246,7 +1347,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Appid -Name"
+            "value" : "AppID-Name"
           }
         },
         "en" : {
@@ -1290,6 +1391,24 @@
     "Archive & Extraction" : {
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Archiv und Extrahierung"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Archivo y extracción"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arsiv&Ekstraksiyon"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1300,6 +1419,24 @@
     },
     "Available Tweaks" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verfügbare Tweaks"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "modificaciones disponibles "
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mevcut Ince Ayarlar"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1427,7 +1564,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bündeln"
+            "value" : "Bundle"
           }
         },
         "en" : {
@@ -1509,7 +1646,7 @@
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Vazgeç"
+            "value" : "Reddet"
           }
         },
         "vi" : {
@@ -1685,7 +1822,19 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Eine Aktion Wählen"
+            "value" : "Wähle eine Aktion"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selecciona una acción"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bir tane aksiyon secin"
           }
         },
         "vi" : {
@@ -1709,7 +1858,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Wählen Sie aus Dateien"
+            "value" : "Wähle aus Dateien"
           }
         },
         "en" : {
@@ -1763,7 +1912,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Wählen Sie aus Fotos"
+            "value" : "Wähle aus Fotos"
           }
         },
         "en" : {
@@ -1807,6 +1956,24 @@
     "Choose which library to use for extracting archives. ZIPFoundation is recommended for large files or when Zip is not working." : {
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wähle welche library zum Extrahieren von *.zip Dateien benutzt werden soll. ZIPFoundation ist für große Dateien empfohlen oder wenn Zip nicht funktioniert."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elige que biblioteca usar para extraer archivos. ZIPFoundation se recomienda para archivos grandes o cuando Zip no funciona."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arşivleri çıkarmak için hangi kütüphaneyi kullanacağınızı seçin. Büyük dosyalar için veya Zip çalışmadığında ZIPFoundation önerilir."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1881,7 +2048,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kompressionsniveau"
+            "value" : "Kompressionslevel"
           }
         },
         "en" : {
@@ -1978,6 +2145,24 @@
     "Create" : {
       "extractionState" : "stale",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erstellen"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Crear"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Olustur"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2051,7 +2236,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Anpassungen"
+            "value" : "Personalisierung"
           }
         },
         "en" : {
@@ -2305,6 +2490,18 @@
     },
     "Discard" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verwerfen"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yok Et"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2325,7 +2522,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Zwietracht"
+            "value" : "Discord"
           }
         },
         "en" : {
@@ -2343,7 +2540,7 @@
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Discorde"
+            "value" : "Discord"
           }
         },
         "ru" : {
@@ -2355,7 +2552,7 @@
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Anlaşmazlık"
+            "value" : "Discord"
           }
         },
         "vi" : {
@@ -2582,6 +2779,18 @@
     },
     "Done" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fertig"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bitti"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2603,7 +2812,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Laden Sie STOSVPN herunter"
+            "value" : "Lade StosVPN herunter"
           }
         },
         "en" : {
@@ -2647,6 +2856,24 @@
     "Downloaded Apps" : {
       "extractionState" : "stale",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Heruntergeladene Apps"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "aplicaciones descargadas"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yüklenmis Uygulamalar"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2710,6 +2937,18 @@
     },
     "Edit" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bearbeiten"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Düzenle"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2720,6 +2959,18 @@
     },
     "Edit Value" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wert Bearbeiten"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Degeri Düzenle"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2730,6 +2981,24 @@
     },
     "Edit value for key: %@" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wert für %@ Bearbeiten"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Editar valor para la clave: %@"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Degeri Anahtar Icin Düzenle"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2740,6 +3009,24 @@
     },
     "Empty Property List" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Liste der Eigenschaften leeren"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "lista de propiedades vacia"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mülk Listesini Boşalt"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2760,7 +3047,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Der dynamische Schutz wendet den PPQ-Schutz nur an, wenn die Bundle-ID im App Store vorhanden ist. Dies erfordert eine Internetverbindung während der Signierung."
+            "value" : "Wenn du irgendeinen Schutz aktivierst wird ein Zufälliger String zu den bundelidentifiers der apps die Du signierst hinzugefügt. Dies verhindert dass deine Apple ID von Apple als Verdächtig markiert wird. Allerdings wenn du einen Signaturservice verwendest kannst du dies ignorieren."
           }
         },
         "en" : {
@@ -2804,6 +3091,18 @@
     "Enter a name for the new folder" : {
       "extractionState" : "stale",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gebe einen Namen für den neuen Ordner ein"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dosya icin yeni bir isim gir"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2815,6 +3114,24 @@
     "Enter a new name" : {
       "extractionState" : "stale",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gebe einen neuen Namen ein"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "escribir un nuevo nombre"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yeni bir isim gir"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2835,7 +3152,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Geben Sie eine URL ein, um die Validierung zu beginnen."
+            "value" : "Gebe eine URL ein, um die Validieren zu starten."
           }
         },
         "en" : {
@@ -2879,6 +3196,18 @@
     "Enter Certificate Password" : {
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Füge ein Zertifikat-Passwort hinzu"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sertifika Parolasını gir"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2952,7 +3281,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Gib das Passwort ein, das mit dem privaten Schlüssel verknüpft ist. Lasse es leer, wenn kein Passwort erforderlich ist."
+            "value" : "Gebe das Passwort das mit dem Private Key zusammengeführt wird. Lasse dies frei, falls kein Passwort benötigt wird."
           }
         },
         "en" : {
@@ -2996,6 +3325,24 @@
     "Enter the password for the certificate. Leave it blank if no password is required." : {
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gebe das Passwort für das Zertifikat ein. Lasse dies frei, falls kein Passwort benötigt wird."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "introduce la contrasena del certificado. Déjalo en blanco si no se requiere contrasena."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sertifika icin parola girin.Eger parola gerekmiyorsa boşluğu boş birakin"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3006,6 +3353,18 @@
     },
     "Enter the URL of the website containing the IPA file" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gebe die URL der website ein, die die IPA-Datei enthält."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "IPA dosyasını içeren Web Site URL'sini giriniz"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3016,6 +3375,24 @@
     },
     "Enter Website URL" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gebe die Website-URL ein"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "introduce la URL del sitio web"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Web Sitesi URL'sini girin"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3036,7 +3413,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ansprüche"
+            "value" : "Erlaubte Funktionen"
           }
         },
         "en" : {
@@ -3079,6 +3456,18 @@
     },
     "Error" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fehler"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hata"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3090,6 +3479,18 @@
     "Error extracting archive: %@" : {
       "extractionState" : "stale",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fehler bei der extrahieren von %@"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arşiv Ekstrasyonu yaparken hata %@"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3100,6 +3501,18 @@
     },
     "Error: %@" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fehler: %@"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hata %@"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3150,7 +3563,7 @@
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Çalıştırılabilir Dosya"
+            "value" : "Calistiralabilir"
           }
         },
         "vi" : {
@@ -3162,7 +3575,7 @@
       }
     },
     "Existing Dylibs" : {
-      "extractionState" : "stale",
+      "extractionState" : "manual",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
@@ -3173,13 +3586,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bestehende Dylibs"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Existing Dylibs"
+            "value" : "Existierende Dylibs"
           }
         },
         "es" : {
@@ -3204,12 +3611,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Var Olan Dylib Kütüphaneleri"
-          }
-        },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Dylib hiện có"
           }
         }
       }
@@ -3376,6 +3777,24 @@
     },
     "Export to Files App" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exportiere in die Dateien-App"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exportar a la aplicacion archivos"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dosyalar Uygulamasına Aktar"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3389,7 +3808,13 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Entpacken"
+            "value" : "Extrahieren"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cikar"
           }
         },
         "vi" : {
@@ -3403,6 +3828,24 @@
     "Extracting %lld%%" : {
       "extractionState" : "stale",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Extrahiere %lld%%"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Extrayendo %lld%%"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cikartiliyor %lld%%"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3414,6 +3857,24 @@
     "Extraction Library" : {
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Extrahierungs-Library"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "biblioteca de extracción"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cikartma Kütüphanesi"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3434,7 +3895,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Überprüfen Sie Ihre Internetverbindung nicht herunter und versuchen Sie es erneut."
+            "value" : "Fehler beim herunterladen. Überprüfe deine Internetverbindung und versuche es erneut."
           }
         },
         "en" : {
@@ -3478,21 +3939,28 @@
     "Failed to import to Library: %@" : {
       "extractionState" : "stale",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fehler beim importieren der Library: %@"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "no se pudo importar la biblioteca: %@"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lỗi khi nhập vào thư viện: %@"
-          }
-        }
-      }
-    },
-    "Failed to package IPA: %@" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Lỗi khi nén thành IPA: %@"
           }
         }
       }
@@ -3509,7 +3977,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Merkmale"
+            "value" : "Funktionen"
           }
         },
         "en" : {
@@ -3553,6 +4021,24 @@
     "File extracted successfully" : {
       "extractionState" : "stale",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Datei erfolgreich extrahiert"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Archivo extraído con éxito"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dosya basariyla aktarıldı"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3564,6 +4050,18 @@
     "File import error: %@" : {
       "extractionState" : "stale",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fehler beim importieren der Dateien: %@"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dosya Aktarma Hatası: %@"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3575,6 +4073,18 @@
     "File name" : {
       "extractionState" : "stale",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Datei Name"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dosya ismi"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3746,6 +4256,24 @@
     "Folder name" : {
       "extractionState" : "stale",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ordner Name"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : " carpeta nombre"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dosya ismi"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3766,7 +4294,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Erzwinge Versuch Zu Lokalisieren"
+            "value" : "Erzwinge Lokalisierung"
           }
         },
         "en" : {
@@ -3925,7 +4453,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Voll lokal"
+            "value" : "Völlig Lokal"
           }
         },
         "en" : {
@@ -4022,6 +4550,24 @@
     "Get" : {
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hole"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "obtener"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Al"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4042,7 +4588,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Erhalten Sie Zugang zu unserer geheimen Zwietracht, indem Sie spenden, wo wir über zukünftige Updates, Betas und potenzielle Möglichkeiten sprechen, Ihre Erfahrung zu verbessern."
+            "value" : "Erhalte zugriff zu unserem geheimen Discord indem du spendest. Dort reden wir über zukünftige Updates, Betas, und potenzielle Wege um die allgemeine Benutzererfahrung zu verbessern."
           }
         },
         "en" : {
@@ -4096,7 +4642,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Holen Sie sich Infos"
+            "value" : "Info"
           }
         },
         "en" : {
@@ -4140,6 +4686,24 @@
     "Get started by importing your first IPA files." : {
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Starte in dem du deine erste IPA-Datei importierst."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Comienza importando tus primeros archivos IPA"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ilk IPA dosyalarını içe aktararak basla."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4203,6 +4767,24 @@
     },
     "Go" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Los"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ir"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Git"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4223,7 +4805,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Herzschlag"
+            "value" : "Heartbeat"
           }
         },
         "en" : {
@@ -4276,7 +4858,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Helfen"
+            "value" : "Hilfe"
           }
         },
         "en" : {
@@ -4318,7 +4900,26 @@
       }
     },
     "Hex Editor" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hex Editierungsprogramm"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "editor hexadecimal"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hex Düzenleyici"
+          }
+        }
+      }
     },
     "Hidden" : {
       "extractionState" : "manual",
@@ -4385,7 +4986,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kennungen"
+            "value" : "Identifiers"
           }
         },
         "en" : {
@@ -4438,7 +5039,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kennung"
+            "value" : "Identifier"
           }
         },
         "en" : {
@@ -4491,7 +5092,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Identifikator Präfix"
+            "value" : "Identifier Prefix"
           }
         },
         "en" : {
@@ -4587,6 +5188,24 @@
     },
     "Import Certificate" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Importiere Zertifikat"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Importar certificado"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sertifika İçe Aktar"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4607,7 +5226,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Zertifikatdatei importieren (.p12)"
+            "value" : "Zertifikat-Datei importieren (Im *.p12-Format)"
           }
         },
         "en" : {
@@ -4650,6 +5269,18 @@
     },
     "Import Files" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Importiere Dateien"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dosyalar İçe Aktar"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4671,7 +5302,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Von Dateien importieren"
+            "value" : "Aus Dateien importieren"
           }
         },
         "en" : {
@@ -4725,7 +5356,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Import von URL"
+            "value" : "Importiere von URL"
           }
         },
         "en" : {
@@ -4778,7 +5409,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pairing -Datei importieren"
+            "value" : "Pairing-Datei importieren"
           }
         },
         "en" : {
@@ -4831,7 +5462,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bereitstellungsdatei importieren"
+            "value" : "Import Provisioning-Datei"
           }
         },
         "en" : {
@@ -4878,6 +5509,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "In die Mediathek Importieren"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kütüphaneye Aktar"
           }
         },
         "vi" : {
@@ -4943,6 +5580,24 @@
     },
     "Importing %lld%%" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Importiere %lld%%"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "importando %lld%%"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İçe Aktarılıyor %11d%%"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4963,7 +5618,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Info"
+            "value" : "Information"
           }
         },
         "en" : {
@@ -5220,6 +5875,24 @@
     "Keep app running in background" : {
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App im Hintergrund weiterlaufen lassen"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mantener la aplicación en ejecución en segundo plano"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arka Planda Uygulamayı Calistirmaya Devam Et"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5229,7 +5902,21 @@
       }
     },
     "Key" : {
-      "extractionState" : "manual"
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Key"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anahtar"
+          }
+        }
+      }
     },
     "Library" : {
       "comment" : "Library tab",
@@ -5297,7 +5984,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bibliothekszellenauftritt"
+            "value" : "Mediathek Erscheinungsbild"
           }
         },
         "en" : {
@@ -5339,14 +6026,64 @@
       }
     },
     "Loading file..." : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lade Datei..."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cargando archivo..."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dosya Yükleniyor..."
+          }
+        }
+      }
     },
     "Loading plist..." : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lade .plist..."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cargando plist..."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plist Yükleniyor..."
+          }
+        }
+      }
     },
     "Logs" : {
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Logs"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Günlükler"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5368,7 +6105,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mindest-App-Version"
+            "value" : "Mindest benötigte app version"
           }
         },
         "en" : {
@@ -5421,13 +6158,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Miser"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Misc"
+            "value" : "Andere"
           }
         },
         "es" : {
@@ -5463,7 +6194,7 @@
       }
     },
     "Modify" : {
-      "extractionState" : "stale",
+      "extractionState" : "manual",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
@@ -5475,12 +6206,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ändern"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Modify"
           }
         },
         "es" : {
@@ -5504,7 +6229,7 @@
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Değiştir"
+            "value" : "Modificar"
           }
         },
         "vi" : {
@@ -5517,6 +6242,18 @@
     },
     "Move" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bewegen"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hareket Ettir"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5643,7 +6380,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Zertifikate hinzufügen"
+            "value" : "Neues Zertifikat"
           }
         },
         "en" : {
@@ -5686,6 +6423,24 @@
     },
     "New Folder" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neuer Ordner"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "nueva carpeta"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yeni Dosya"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5696,6 +6451,18 @@
     },
     "New Text File" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neue Textdatei"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yeni Yazı Dosyasi"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5706,6 +6473,24 @@
     },
     "Next" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nächste"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "siguiente"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sonraki"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5771,6 +6556,12 @@
     "No Apps" : {
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine Apps"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5834,6 +6625,18 @@
     },
     "No downloaded IPAs" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine heruntergeladenen IPA-Dateien D:"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yüklü IPAlar yok"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5845,6 +6648,24 @@
     "No file selected" : {
       "extractionState" : "stale",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine Datei ausgewählt"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ningún archivo seleccionado"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hiçbir Dosya Secili Degil"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5865,7 +6686,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Keine Pairing -Datei gefunden, importieren Sie sie bitte."
+            "value" : "Keine Pairing-Datei gefunden. Bitte importiere diese."
           }
         },
         "en" : {
@@ -5918,7 +6739,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Okay"
+            "value" : "Ok"
           }
         },
         "en" : {
@@ -5971,7 +6792,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Verwenden Sie nur die Lokalhost -Adresse"
+            "value" : "Nur die localhost-Addresse verwenden"
           }
         },
         "en" : {
@@ -6024,7 +6845,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Offen"
+            "value" : "Öffne"
           }
         },
         "en" : {
@@ -6077,7 +6898,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Offene Archive"
+            "value" : "Öffne Archive"
           }
         },
         "en" : {
@@ -6130,7 +6951,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Offene Zertifikate"
+            "value" : "Öffne Zertifikate"
           }
         },
         "en" : {
@@ -6183,7 +7004,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Offene Dokumente"
+            "value" : "Öffne Dokumente"
           }
         },
         "en" : {
@@ -6279,6 +7100,24 @@
     },
     "Package as IPA" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Als IPA verpacken"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Empaquetar como IPA"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "IPA olarak paketle"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6299,7 +7138,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pairing -Dateihandbuch"
+            "value" : "Pairing-Datei Guide"
           }
         },
         "en" : {
@@ -6396,6 +7235,18 @@
     "Password (leave empty if none)" : {
       "extractionState" : "stale",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Passwort (lasse dies frei, wenn es keins gibt)"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parola(eğer yoksa boş birakin)"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6415,7 +7266,7 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "needs_review",
             "value" : "Pille"
           }
         },
@@ -6469,7 +7320,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Plattform"
+            "value" : "Platform"
           }
         },
         "en" : {
@@ -6511,8 +7362,7 @@
       }
     },
     "Please check the password and try again." : {
-      "comment" : "Bad certificate password, try again",
-      "extractionState" : "stale",
+      "extractionState" : "manual",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
@@ -6526,12 +7376,6 @@
             "value" : "Bitte überprüfe das Passwort und versuche es erneut."
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Please check the password and try again."
-          }
-        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6541,7 +7385,7 @@
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Veuillez vérifier le mot de passe et réessayer."
+            "value" : "Zkontrolujte prosím heslo a zkuste to znovu."
           }
         },
         "ru" : {
@@ -6553,13 +7397,13 @@
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Lütfen parolayı kontrol edip tekrar deneyin."
+            "value" : "Zkontrolujte prosím heslo a zkuste to znovu."
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Vui lòng kiểm tra mật khẩu và thử lại."
+            "value" : "Пожалуйста, проверьте пароль и попробуйте снова."
           }
         }
       }
@@ -6576,7 +7420,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bitte gehen Sie zu Einstellungen und importieren Sie ein gültiges Zertifikat"
+            "value" : "Bitte gehe zu den Einstellungen und importiere ein gültiges Zertifikat"
           }
         },
         "en" : {
@@ -6618,7 +7462,26 @@
       }
     },
     "Plist Editor" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plist Fehler"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Editor de Plist"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plist Düzenleyici"
+          }
+        }
+      }
     },
     "PPQ Protection" : {
       "extractionState" : "manual",
@@ -6632,7 +7495,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "PPQ -Schutz"
+            "value" : "PPQ-Schutz"
           }
         },
         "en" : {
@@ -6679,6 +7542,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vorschau"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Önizleme"
           }
         },
         "vi" : {
@@ -6862,7 +7731,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bereitstellung alle Geräte"
+            "value" : "Provision aller Geräte"
           }
         },
         "en" : {
@@ -6915,7 +7784,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bereitete Geräte"
+            "value" : "Provisionierte Geräte"
           }
         },
         "en" : {
@@ -6968,7 +7837,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Zurücktreten"
+            "value" : "Erneut Signieren"
           }
         },
         "en" : {
@@ -7074,7 +7943,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Entfernen Sie nervige Warnungen wie diese, nachdem Sie den Beta -Zugriff erhalten haben!"
+            "value" : "Entferne nervige Warnungen wie diese nachdem du Beta-Zugriff bekommen hast"
           }
         },
         "en" : {
@@ -7127,7 +7996,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Entferne Provisioning Datei"
+            "value" : "Entferne Provisioning-Datei"
           }
         },
         "en" : {
@@ -7180,7 +8049,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Entfernen Sie unterstützte Geräte"
+            "value" : "Entferne Unterstützte Geräte"
           }
         },
         "en" : {
@@ -7233,7 +8102,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Entfernen Sie diese Warnung"
+            "value" : "Entferne diese Warnung"
           }
         },
         "en" : {
@@ -7286,7 +8155,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Entferne URLScheme"
+            "value" : "Entferne URL Scheme"
           }
         },
         "en" : {
@@ -7339,7 +8208,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Entferne Platzhalter Watch App"
+            "value" : "Entferne Watch-App Platzhalter"
           }
         },
         "en" : {
@@ -7388,6 +8257,12 @@
             "value" : "Umbenennen"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yeniden Adlandır"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7399,6 +8274,18 @@
     "Rename File" : {
       "extractionState" : "stale",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Datei Umbenennen"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dosyayi Yeniden Adlandır"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7578,7 +8465,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Herzschlag neu starten"
+            "value" : "Heartbeat neu starten"
           }
         },
         "en" : {
@@ -7673,7 +8560,26 @@
       }
     },
     "Root Dictionary" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Root-Dictionary"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diccionario raiz"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Root Sözlüğü"
+          }
+        }
+      }
     },
     "Save" : {
       "localizations" : {
@@ -7686,7 +8592,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sichern"
+            "value" : "Speichern"
           }
         },
         "en" : {
@@ -7728,7 +8634,20 @@
       }
     },
     "Search hex or ASCII" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suche hex oder ASCII"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hex yada ASCII ara"
+          }
+        }
+      }
     },
     "See all apps from your sources" : {
       "comment" : "All repositories description",
@@ -7743,7 +8662,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sehen Sie alle Apps aus Ihren Quellen an"
+            "value" : "Sehe alle apps aus deinen Quellen"
           }
         },
         "en" : {
@@ -7796,7 +8715,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Scheint, als hätten Sie Ihre Pairing -Datei die Hände!"
+            "value" : "Sieht so aus als ob du deine Pairing-Datei bekommen hast!"
           }
         },
         "en" : {
@@ -7840,6 +8759,24 @@
     "Select All" : {
       "extractionState" : "stale",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alles Auswählen"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "seleccionar todo"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hepsini Sec"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7861,7 +8798,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Wählen Sie alternatives Symbol"
+            "value" : "Wähle ein alternatives Symbol"
           }
         },
         "en" : {
@@ -7915,7 +8852,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Wählen Sie Berechtigungsdatei"
+            "value" : "Wähle entitlements-Datei"
           }
         },
         "en" : {
@@ -7968,7 +8905,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Halb lokal"
+            "value" : "Semi-Lokal"
           }
         },
         "en" : {
@@ -8121,7 +9058,19 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "teilen"
+            "value" : "Teilen"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "compartir"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paylas"
           }
         },
         "vi" : {
@@ -8134,6 +9083,18 @@
     },
     "Show patch notes" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zeige Änderungen"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yama Notlarını Göster"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8155,7 +9116,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Blatt zeigen beim Exportieren"
+            "value" : "Zeige Sheet bei der exportierung "
           }
         },
         "en" : {
@@ -8208,7 +9169,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Zeigen Sie Ihre Unterstützung"
+            "value" : "Zeige deine Unterstützung"
           }
         },
         "en" : {
@@ -8261,13 +9222,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Zeigen Sie Ihre Unterstützung durch Spenden!Wenn Sie nicht spenden können, funktioniert das Verbreiten des Wortes auch!"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Show your support by donating! If you're unable to donate, spreading the word works too!"
+            "value" : "Zeige deine Unterstützung indem du spendest! Wenn du leider nicht spenden kannst, anderen Leuten darüber erzählen funktioniert auch!"
           }
         },
         "es" : {
@@ -8291,7 +9246,7 @@
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bağış yaparak desteğinizi gösterin! Eğer bağış yapamıyorsanız Feather’ı dilden dile yaymak da işe yarar!"
+            "value" : "Ukažte svojí podporu díky podpoření! Pokud nemůžete podpořit, alespoň se o aplikaci podělte s ostatními!"
           }
         },
         "vi" : {
@@ -8314,7 +9269,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Zeichen"
+            "value" : "Signieren"
           }
         },
         "en" : {
@@ -8364,6 +9319,12 @@
             "value" : "Signieren und Installieren"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İmzala & Yükle"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8384,7 +9345,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Unterzeichnet"
+            "value" : "Signiert"
           }
         },
         "en" : {
@@ -8428,6 +9389,24 @@
     "Signed Apps" : {
       "extractionState" : "stale",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Signierte Apps"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "aplicaciones firmadas"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İmzalanmis Uygulamalar"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8448,7 +9427,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Signierung"
+            "value" : "Signieren in Bearbeitung"
           }
         },
         "en" : {
@@ -8554,7 +9533,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Quell -Repo -URL"
+            "value" : "Quell-Repo-URL"
           }
         },
         "en" : {
@@ -8713,7 +9692,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "SSL -Zertifikate"
+            "value" : "SSL-Zertifikate"
           }
         },
         "en" : {
@@ -8872,7 +9851,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Lagern Sie das Zellenauftritt"
+            "value" : "Speichere das Erscheinungsbild"
           }
         },
         "en" : {
@@ -8925,7 +9904,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Saite"
+            "value" : "String"
           }
         },
         "en" : {
@@ -8968,6 +9947,18 @@
     },
     "String representation:" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "String Repräsentierung:"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yay Gösterimi"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9032,6 +10023,24 @@
     "Success" : {
       "extractionState" : "stale",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erfolg"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exito "
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Basari"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9043,6 +10052,18 @@
     "Successfully imported %@ to Library" : {
       "extractionState" : "stale",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Wurde erfolgreich zu der Mediathek importiert"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kütüphaneye %@ basariyla akrarildi"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9054,10 +10075,28 @@
     "Successfully packaged %@ as %@" : {
       "extractionState" : "stale",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ wurde erfolgreich als %2$@ verpackt"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "new",
             "value" : "Successfully packaged %1$@ as %2$@"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Empaquetado con éxito %1$@ como %2$@"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Basariyla Paketlendi %1$@ olarak %2$@"
           }
         },
         "vi" : {
@@ -9080,7 +10119,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Unterstützt das Import von Kravasign/Maplesign und Essign"
+            "value" : "Unterstützt die importierung von KravaSign, MapleSign und ESign"
           }
         },
         "en" : {
@@ -9133,7 +10172,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Teamkennungen"
+            "value" : "Team identifiers"
           }
         },
         "en" : {
@@ -9229,6 +10268,24 @@
     },
     "Text Editor" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Text Bearbeitungsprogramm"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Editor de texto"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yazı Düzenleyicisi"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9249,7 +10306,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Der Herzschlag wird im Hintergrund aktiviert, er wird neu gestartet, wenn die App erneut geöffnet oder ausgelöst wird.Wenn der folgende Status pulsiert ist, bedeutet dies, dass es gesund ist."
+            "value" : "Der Heartbeat wird im Hintergrund aktiviert, er wird neu gestartet, wenn die App erneut geöffnet oder ausgelöst wird. Wenn der folgende Status pulsiert ist, bedeutet dies, dass er gesund ist."
           }
         },
         "en" : {
@@ -9345,6 +10402,18 @@
     },
     "This property list contains no items" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diese plist hat keine Inhalte"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mülk listesi eşya bulundurmuyor"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9356,6 +10425,18 @@
     "This will keep the app running even when you close it, helpful with download or installing ipa." : {
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die app läuft weiter, sogar wenn du sie schließt. Hilfreich bei der Installation oder downloads einer IPA-Datei"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu uygulamayı kapatsan bile calismasini sağlıyacak,IPA indirirken veya yüklerken ise yarar"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9376,7 +10457,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Das Umschalten von Show -Sendungen bietet nach dem Exportieren in Ihre Dateien ein Freigabeblatt."
+            "value" : "Das Umschalten vom Show-Sheet bietet nach dem Exportieren in deiner Dateien ein Freigabeblatt."
           }
         },
         "en" : {
@@ -9429,7 +10510,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tunnel & Paarung"
+            "value" : "Tunnel & Pairing"
           }
         },
         "en" : {
@@ -9471,8 +10552,7 @@
       }
     },
     "Tweaks" : {
-      "comment" : "Select custom tweaks to install and inject",
-      "extractionState" : "stale",
+      "extractionState" : "manual",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
@@ -9481,12 +10561,6 @@
           }
         },
         "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Tweaks"
-          }
-        },
-        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tweaks"
@@ -9522,8 +10596,7 @@
             "value" : "Tweaks"
           }
         }
-      },
-      "shouldTranslate" : false
+      }
     },
     "Unknown" : {
       "extractionState" : "manual",
@@ -9538,12 +10611,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Unbekannt"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Unknown"
           }
         },
         "es" : {
@@ -9561,7 +10628,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Неизвестно"
+            "value" : "Inconnu"
           }
         },
         "tr" : {
@@ -9580,6 +10647,24 @@
     },
     "Unsaved Changes" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ungespeicherte Änderungen"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cambios no guardados"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaydedilmemiş Değişikler"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9600,7 +10685,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Lokales Zertifikat aktualisieren"
+            "value" : "SSL-Zertifikate aktualisieren"
           }
         },
         "en" : {
@@ -9698,6 +10783,24 @@
     "Use last copied location" : {
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Benutze den zuletzt kopierten Ort"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "usar la ultima ubicación copiada"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Son kopyalanmış lokasyonu kullan"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9708,6 +10811,24 @@
     },
     "Value" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wert"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "valor"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deger"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9824,6 +10945,18 @@
     },
     "View Mode" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zeige Modus"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modu Gór"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9845,7 +10978,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Besuchen Sie Patreon"
+            "value" : "Besuche unseren Patreon"
           }
         },
         "en" : {
@@ -9899,7 +11032,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Besuchen Sie die Website"
+            "value" : "Besuche unsere Website"
           }
         },
         "en" : {
@@ -9943,6 +11076,12 @@
     "Whether to remember the last location where a file was copied/moved to or use Ksign's documents folder as default." : {
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ob sich KSign daran erinnern soll wo die Datei zuletzt bewegt/kopiert wurde oder den Standard ksign Dokumenten Ordner zu benutzen"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9954,6 +11093,18 @@
     "Whoops!, something went wrong when extracting the file. \nMaybe try switching the extraction library in the settings?" : {
       "extractionState" : "stale",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ups! Etwas ist bei der extrahierung von der Datei schiefgelaufen! Versuche vielleicht die Extrahierungs-Library in den Einstellungen zu ändern?"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uups!,bir seyler dosyayı aktarırken yanlış gitti.Belki ayarlardan aktarma kütüphanesi değiştirmeyi deneyebilirsin?"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9964,6 +11115,18 @@
     },
     "You have unsaved changes. Do you want to save them before closing?" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du hast ungespeicherte Änderungen. Möchtest du sie vor dem schließen speichern?"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaydedilmemis değişikliklerin var.Kapatmadan önce onlari kaydetmek ister misin?"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
