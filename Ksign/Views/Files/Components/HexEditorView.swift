@@ -150,21 +150,11 @@ struct HexEditorView: View {
         ScrollView {
             ScrollViewReader { proxy in
                 VStack(alignment: .leading, spacing: 0) {
-                    if viewModel.isLoading {
-                        ProgressView("Loading file...")
-                            .frame(maxWidth: .infinity, maxHeight: .infinity)
-                            .padding()
-                    } else if let errorMessage = viewModel.errorMessage {
-                        Text("Error: \(errorMessage)")
-                            .foregroundColor(.red)
-                            .padding()
-                    } else {
-                        switch currentViewMode {
-                            case .byte:
-                                byteView
-                            case .string:
-                                stringView
-                        }
+                    switch currentViewMode {
+                        case .byte:
+                            byteView
+                        case .string:
+                            stringView
                     }
                 }
                 .onChange(of: viewModel.scrollToIndex) { index in
